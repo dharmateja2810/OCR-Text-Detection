@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.drop-area {
+  width: 400px;
+  height: 300px;
+  border: 2px dashed gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.preview-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+  display: grid;
+  gap:20px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.text-box {
+  white-space: pre-wrap;    
+  border: 2px solid black;  
+  padding: 10px;           
+  min-height: 100px;           
+  overflow-y: auto;        
+  word-break: break-word;   
+  width: 50%;              
+  height: 80vh;           
+  margin: 0px auto;  
+  resize: both;
+}
+
+.input-box{
+  width: 20%;
+  padding: 4px;
+  text-align: center;
+  user-select: none;
+}
+
+.search-box{
+  width: 10%;
+  padding: 3px;
+}
+.search-box:hover{
+  background-color: cyan;
+}
+.highlight {
+  background-color: yellow;
+}
